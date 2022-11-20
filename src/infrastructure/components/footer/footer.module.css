@@ -1,0 +1,10 @@
+.footer {
+    background-color: rgb(76, 215, 102);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.adress {
+    margin: 0.5rem;
+}
