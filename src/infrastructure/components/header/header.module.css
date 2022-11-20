@@ -1,0 +1,11 @@
+
+.header {
+    background-color: rgb(76, 215, 102);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h1 {
+    margin: 0.5rem;
+}
