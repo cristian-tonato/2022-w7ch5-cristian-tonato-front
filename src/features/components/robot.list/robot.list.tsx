@@ -5,11 +5,12 @@ export function RobotList({ item }: { item: Robot[] }) {
     return (
         <div>
             <ul>
-                {item.map((item: Robot) => (
-                    <li key={item.id}>
-                        <RobotItem item={item}></RobotItem>
-                    </li>
-                ))}
+                {item[0].id &&
+                    item.map((item: Robot) => (
+                        <li key={item.id}>
+                            <RobotItem item={item}></RobotItem>
+                        </li>
+                    ))}
             </ul>
         </div>
     );
