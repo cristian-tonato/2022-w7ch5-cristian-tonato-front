@@ -5,7 +5,7 @@ export function RobotList({ item }: { item: Robot[] }) {
     return (
         <div>
             <ul>
-                {item[0].id &&
+                {item[0] &&
                     item.map((item: Robot) => (
                         <li key={item.id}>
                             <RobotItem item={item}></RobotItem>

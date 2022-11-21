@@ -9,7 +9,7 @@ describe("Given the RobotList component", () => {
             const mockRobot = [
                 {
                     id: "as12df3",
-                    name: "Pepe",
+                    name: "linguo",
                     img: "url.img",
                     speed: 5,
                     strength: 4,
