@@ -3,8 +3,8 @@ import { id, Repository } from "./repository";
 
 export class RobotRepository implements Repository<Robot> {
     url: string;
-    constructor(url = "https://back-end-tjen.onrender.com/robot") {
-        this.url = "https://back-end-tjen.onrender.com/robot";
+    constructor(url = "https://back-end-tjen.onrender.com/robots") {
+        this.url = "https://back-end-tjen.onrender.com/robots";
     }
 
     createError(response: Response) {

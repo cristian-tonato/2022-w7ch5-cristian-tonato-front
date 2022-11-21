@@ -4,7 +4,6 @@ import { Provider } from "react-redux";
 import reportWebVitals from "./reportWebVitals";
 import { MemoryRouter as Router } from "react-router-dom";
 import { appStore } from "./infrastructure/store/store";
-import "./index.css";
 import App from "./infrastructure/components/app/app";
 
 const root = ReactDOM.createRoot(

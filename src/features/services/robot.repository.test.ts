@@ -45,7 +45,7 @@ describe("Given RobotRepository Service", () => {
     describe("When we instantiate create(),", () => {
         test("it should return a Promise to create a Robot", async () => {
             const mockRobot = {
-                name: "Pepe",
+                name: "linguo",
                 img: "url.img",
                 speed: 5,
                 strength: 4,
@@ -62,7 +62,7 @@ describe("Given RobotRepository Service", () => {
 
         test("If an error happens, it should throw an error", async () => {
             const mockRobot = {
-                name: "Pepe",
+                name: "linguo",
                 img: "url.img",
                 speed: 5,
                 strength: 4,
@@ -83,7 +83,7 @@ describe("Given RobotRepository Service", () => {
     describe("When we instantiate update(),", () => {
         test("it should return a Promise of a new Robot", async () => {
             const mockRobot = {
-                name: "Pepe",
+                name: "linguo",
                 img: "url.img",
                 speed: 5,
                 strength: 4,
@@ -94,7 +94,7 @@ describe("Given RobotRepository Service", () => {
                 json: jest.fn().mockResolvedValue([mockRobot]),
             });
             const result = await service.update({
-                name: "Pepe",
+                name: "linguo",
             });
             expect(fetch).toHaveBeenCalled();
             expect(result).toEqual([mockRobot]);
@@ -117,7 +117,7 @@ describe("Given RobotRepository Service", () => {
         test("it should delete a Robot", async () => {
             const mockRobot = {
                 id: "as12df3",
-                name: "Pepe",
+                name: "linguo",
                 img: "url.img",
                 speed: 5,
                 strength: 4,
