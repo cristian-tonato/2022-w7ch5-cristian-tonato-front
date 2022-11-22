@@ -4,7 +4,7 @@ import styles from "./menu.module.css";
 export function Menu() {
     const menuOptions = [
         { id: "1", path: "home", label: "Home" },
-        { id: "2", path: "favorites", label: "Favs" },
+        
     ];
     return (
         <nav>

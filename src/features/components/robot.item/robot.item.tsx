@@ -5,9 +5,9 @@ export function RobotItem({ item }: { item: Robot }) {
         <>
             <p>{item.name}</p>
             <img src={item.img} alt={"Image of" + item.name} height="200" />
-            <p>Spedd: {item.speed}</p>
+            <p>Speed: {item.speed}</p>
             <p>Strength: {item.strength}</p>
-            <p>Creation date: {item.creationDate}</p>
+            <p>Creation Date: {item.creationDate}</p>
         </>
     );
 }
