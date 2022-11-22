@@ -2,8 +2,8 @@ export type Robot = {
     id: string | number;
     name: string;
     img: string;
-    speed: string | number;
-    strength: string | number;
+    speed: number;
+    strength: number;
     creationDate: string;
 };
 export type ProtoRobot = {

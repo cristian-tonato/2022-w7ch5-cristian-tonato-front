@@ -5,6 +5,7 @@ import reportWebVitals from "./reportWebVitals";
 import { MemoryRouter as Router } from "react-router-dom";
 import { appStore } from "./infrastructure/store/store";
 import App from "./infrastructure/components/app/app";
+import "./index.css";
 
 const root = ReactDOM.createRoot(
     document.getElementById("root") as HTMLElement
